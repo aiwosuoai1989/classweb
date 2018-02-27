@@ -14,32 +14,30 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Login',
       component: Login
     },
     {
       path: '/blackindex',
-      name: 'blackindex',
       component: BlackIndex,
       children: [
         {
-          path: 'courseList', // 课程列表
+          path: 'courselist', // 课程列表
           component: CourseList
         },
         {
-          path: 'courseEdit/:sysId', //编辑课程
+          path: 'courseedit/:sysId', //编辑课程
           component: CourseEdit
         },
         {
-          path: 'indexContent', // 首页统计
+          path: 'indexcontent', // 首页统计
           component: IndexContent
         },
         {
-          path: 'adminList', // 后台用户
+          path: 'adminlist', // 后台用户
           component: AdminList
         },
         {
-          path: 'studentList', // 学员用户
+          path: 'studentlist', // 学员用户
           component: StudentList
         },
         {

@@ -23,25 +23,25 @@
       <img class="logo" src="../assets/images/logo03.png" alt="" />
       <ul class="sidenav">
         <li class="now">
-          <router-link to="/backIndex/indexContent">
+          <router-link to="/blackindex/indexcontent">
             <i class="fa fa-home" aria-hidden="true"></i>
             <span>网站首页</span>
           </router-link>
         </li>
         <li>
-          <router-link to="/backIndex/adminList">
+          <router-link to="/blackindex/adminlist">
             <i class="fa fa-user-o" aria-hidden="true"></i>
             <span>后台人员</span>
           </router-link>
         </li>
         <li>
-          <router-link to="/backIndex/studentList">
+          <router-link to="/blackindex/studentlist">
             <i class="fa fa-user-circle-o" aria-hidden="true"></i>
             <span>学员管理</span>
           </router-link>
         </li>
         <li>
-          <router-link to="/backIndex/courseList">
+          <router-link to="/blackindex/courselist">
             <i class="fa fa-book" aria-hidden="true"></i>
             <span>课程管理</span>
           </router-link>
@@ -52,10 +52,9 @@
     <div class="content">
 
       <ul class="breadcrumb">
-        <li><a href="#/backIndex/">首页</a></li>
+        <li><a href="#/blackindex/">首页</a></li>
         <li>{{pageTitle}}</li>
       </ul>
-      <router-view></router-view>
     </div>
 
   </div>
